@@ -1,0 +1,54 @@
+
+.user-profile{
+	height: 100%;
+	width: 100%;
+}
+.profile-date{
+ margin:0px 10px;
+ border: 1px solid black;
+ background: #fff;
+}
+.text-box{
+	height: 90px;
+	padding:24px 10px;
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+
+.text-label-field{
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	margin: 0px 10px;
+	font-size:1rem;
+}
+.text-label-field >input{
+	width: 100%;
+	height: 40px;
+	border: unset;
+	border-bottom:1px solid black;
+}
+.text-label-field >span{
+	display: block;
+	height: 30px;
+	line-height: 29px;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.text-box:nth-child(2){
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+.text-box .submit{
+	width: 100px;
+	border: 1px solid black;
+	font-size: 1rem;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	right: 40px;
+	font-weight: bold;
+	cursor: pointer;
+}

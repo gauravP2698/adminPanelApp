@@ -1,0 +1,51 @@
+.body{
+	height:110px;
+	width: 100%;
+}
+.body .title{
+	height:50px;
+	font-size:1.3rem;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+	padding-left: 10px;
+}
+.body .title.text{
+	padding-top: 8px;
+}
+
+.body .tabs{
+	text-align: left;
+	height:60px;
+	position: relative;
+	margin-left: 45px;
+}
+.body .tabs .active{
+	background-color: black;
+	color: #fff;
+}
+.body .tabs .non-active{
+	background-color: #fff;
+}
+
+.body .tabs div{
+	position: absolute;
+	display: inline-block;
+	height: 45px;
+	width: 100px;
+	border:1px solid black;
+	font-size:1rem;	
+	text-align: center;
+	line-height: 45px;	
+	cursor: pointer;
+	z-index: 1;
+}
+.body .tabs >div:first-child{
+	top: 25%;
+	left:0px;
+}
+
+.body .tabs >div:nth-child(2){
+	top: 25%;
+	left:100px;
+}

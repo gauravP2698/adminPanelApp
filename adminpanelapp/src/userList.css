@@ -1,0 +1,23 @@
+.user-list-container{
+	height: 100%;
+    width: 95%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.user-list-data{
+	width: 100%;
+	background: #fff;
+}
+td{
+	border: 1px solid black;
+	font-size: 0.8rem;
+	color: black;
+	cursor: pointer;
+}
+th{
+	border: 1px solid black;
+	color: black;
+	font-size:1rem;
+	background: lightgrey;
+}
